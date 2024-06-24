@@ -16,7 +16,7 @@ A burn function takes an address and a value, decreasing the total supply and th
 
 #Code
 # Code
-@@ -0,0 +1,41 @@
+@@ -0,0 +1,21 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
@@ -69,7 +69,7 @@ Executing Program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., MyToken.sol). 
 
-@@ -66,10 +66,10 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
+@@ -0,0 +1,21 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 Once the contract is deployed, you can interact with it by calling the mint and burn functions. For example, to mint tokens, provide an address and a value to the mint function. Similarly, to burn tokens, provide an address and a value to the burn function. Ensure that the balance is sufficient when burning tokens.
 
